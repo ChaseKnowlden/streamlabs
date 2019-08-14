@@ -1,6 +1,6 @@
 {
   "name": "streamlabs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Streaming Client",
   "main": "main.js",
   "scripts": {},
@@ -9,6 +9,8 @@
   "license": "ISC",
   "dependencies": {
     "@streamlabs/game-overlay": "https://obs-studio-deployment.s3-us-west-2.amazonaws.com/game-overlay-v0.0.37.tar.gz",
+    "archiver": "^3.1.1",
+    "aws-sdk": "^2.509.0",
     "rimraf": "^2.7.0"
   }
 }
